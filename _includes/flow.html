@@ -1,0 +1,68 @@
+<div class="timeline">
+	<div class="line text-muted"></div>
+
+	<article class="panel panel-default panel-outline">
+		<div class="panel-heading icon">
+			<i class="fa fa-fw fa-file-code-o"></i>
+		</div>
+		<div class="panel-body">
+			Your source code.
+		</div>
+	</article>
+
+	<div class="separator text-muted">
+		build
+	</div>
+
+	<article class="panel panel-primary">
+		<div class="panel-heading icon">
+			<i class="fa fa-fw fa-cogs"></i>
+		</div>
+		<div class="panel-heading">
+			<h2 class="panel-title">Compile <samp>hello.c</samp></h2>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item"><i class="fa fa-fw fa-ship"></i> gcc</li>
+			<li class="list-group-item"><i class="fa fa-fw fa-dollar"></i> <samp>gcc -o hello hello.c</samp></li>
+		</ul>
+	</article>
+
+	<article class="panel panel-primary">
+		<div class="panel-heading icon">
+			<i class="fa fa-fw fa-cogs"></i>
+		</div>
+		<div class="panel-heading">
+			<h2 class="panel-title">Run tests</h2>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item"><i class="fa fa-fw fa-ship"></i> busybox</li>
+			<li class="list-group-item"><i class="fa fa-fw fa-dollar"></i> <samp>./hello</samp></li>
+			<li class="list-group-item"><i class="fa fa-fw fa-binoculars"></i> <samp>stdout:</samp> <code>Hello, World!</code></li>
+		</ul>
+	</article>
+
+	<article class="panel panel-default panel-outline">
+		<div class="panel-heading icon">
+			<i class="fa fa-fw fa-file-o"></i>
+		</div>
+		<div class="panel-body">
+			Binaries
+		</div>
+	</article>
+
+	<div class="separator text-muted">
+		package
+	</div>
+
+	<article class="panel panel-success panel-pipe-in">
+		<div class="panel-pipe text-muted"></div>
+		<div class="panel-heading">
+			<h2 class="panel-title">Wrap in Busybox</h2>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item"><i class="fa fa-fw fa-gift"></i> busybox</li>
+			<li class="list-group-item"><i class="fa fa-fw fa-dollar"></i> <samp>./hello</samp></li>
+			<li class="list-group-item"><i class="fa fa-fw fa-tag"></i> <samp>sample/hello_world</samp></li>
+		</ul>
+	</article>
+</div>
